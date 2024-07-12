@@ -10,13 +10,11 @@ This task is a simple clone of the Google homepage, designed to demonstrate the 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies](#technologies)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Demo
 
-# TODO: Add demo link after deployment
-You can see a live demo of the project [here](https://demo-link.com).
+You can see a live demo of the project [here](https://alight-clone-google-task.netlify.app).
 
 ## Features
 

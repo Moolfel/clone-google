@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 import './App.css';
 
 const App = () => {
-  const [results, setResults] = useState([]);
+  const [setResults] = useState([]);
 
   const fetchResults = async (query) => {
     // TODO: Fix URL issue
@@ -14,11 +14,11 @@ const App = () => {
     setResults(data.results);
   };
 
+  // TODO: Replace with Google dark logo
   return (
     <div className="app">
       <Header />
       <main className="main-content">
-      // TODO: Replace with Google dark logo
         <img src="/google-logo.png" alt="Google Logo" className="google-logo" />
         <SearchBar onSearch={fetchResults} />
       </main>
