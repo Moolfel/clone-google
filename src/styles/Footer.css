@@ -1,0 +1,38 @@
+.footer {
+    background-color: #202124;
+    color: #aaa;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-top {
+    margin-bottom: 20px;
+  }
+  
+  .footer-languages a {
+    color: #8ab4f8;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-links, .footer-links-right {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .footer-links a, .footer-links-right a {
+    color: #8ab4f8;
+    text-decoration: none;
+  }
+  
+  .footer-country {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
