@@ -1,4 +1,4 @@
-# Google Homepage Clone
+# Alight Task Challenge
 
 This task is a simple clone of the Google homepage, designed to demonstrate the basic structure and styles similar to Google's search page. It includes a dark theme, a search bar, and a footer with language options and links.
 
