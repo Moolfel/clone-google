@@ -9,6 +9,7 @@ const SearchBar = ({ onSearch }) => {
     onSearch(query);
   };
 
+  //   TODO: Replace with search icons
   return (
     <form className="search-bar" onSubmit={handleSearch}>
       <div className="search-container">
@@ -20,7 +21,6 @@ const SearchBar = ({ onSearch }) => {
             placeholder="Search Google"
           />
           <div className="search-icons">
-        //   TODO: Replace with search icons
             <img src="" alt="Microphone Icon" />
             <img src="" alt="Google Lens Icon" />
           </div>

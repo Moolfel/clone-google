@@ -7,8 +7,8 @@ import './App.css';
 const App = () => {
   const [setResults] = useState([]);
 
+  // TODO: Fix URL issue
   const fetchResults = async (query) => {
-    // TODO: Fix URL issue
     const response = await fetch(`https://test.com/search?q=${query}`);
     const data = await response.json();
     setResults(data.results);
